@@ -82,7 +82,7 @@ export default {
 // 複数行のslotに対応(且つ、ie11対応)するため、calcとline-heightの設定で調整
 // min-heightで書きたいけど、ie11で崩れるのでしかたなし
 @mixin height {
-  padding: calc((64px - 1.2em) / 2) $gap-m; //
+  padding: calc((64px - 1.2em) / 2) $gap-m;
   line-height: 1.2;
 }
 
