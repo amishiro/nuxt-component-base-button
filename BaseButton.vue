@@ -50,7 +50,7 @@ export default {
   computed: {
     /**
      * propsに合わせてcomponentタグを生成
-     * @returns { String } - nuxt-lin || a || button
+     * @returns { String } - nuxt-link || a || button
      */
     tag() {
       if (this.to) return 'nuxt-link'
