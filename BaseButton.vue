@@ -46,6 +46,7 @@ export default {
       },
     },
   },
+
   computed: {
     /**
      * propsに合わせてcomponentタグを生成
@@ -59,7 +60,7 @@ export default {
 
     /**
      * 横幅のサイズ用のclassを生成
-     * @returns { void }
+     * @returns {( String | undefined )} - class名 || undefined
      */
     addClassSize() {
       return this.size ? `is-size-${this.size}` : undefined
